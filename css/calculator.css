@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.wrapper {
+    width: 400px;
+}
+
+.screen {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.cal-buttons {
+    background-color: black;
+}
+.btn-row {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.btn {
+    flex-basis: 25%;
+    height: 100px;
+    font-size: 40px;
+    background-color: #d8d9db;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: #ebebeb;
+}
+
+.btn:active {
+    background-color: #bbbcbe;
+}
+
+.func-btn {
+    background-color: #df974c;
+}
+
+.func-btn:hover {
+    background-color: #dfb07e;
+}
+
+.func-btn:active {
+    background-color: #dd8d37;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.tripple {
+    flex-basis: 75%;
+}
+
+
