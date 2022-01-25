@@ -1,6 +1,6 @@
 
 
-        // this will be so much cleaner with react :P
+        
 
         let calcStack = [];
         let calcValue = document.getElementById("calc-value");
